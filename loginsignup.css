@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-size: cover;
+ }
+.box{
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: black;
+  text-align: center;
+  border-radius: 3.3em;
+  z-index:-1;
+  box-shadow: 8px 8px 6.5px grey;
+  
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box fp h1{
+  color: white;
+  font-weight: 30px;
+}
+.box input[type = "text"],.box input[type = "mail"],.box input[type = "tel"],.box input[type = "password"],.box input[type = "int"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "tel"]:focus,.box input[type = "mail"]:focus,.box input[type = "password"]:focus,.box input[type = "int"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;             
+  border: 2px solid #2ecc71;
+  padding: 14px 70px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+.pwd-eye {
+		width: 30px;
+		height: 30px;
+		filter: contrast(0);
+		position: absolute;
+		visibility: hidden;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+header{
+	width: 100%;
+	height: 0vh;
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+}
+
+.header_menu{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.menu_list{
+	width: 100%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.menu_list li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 2px;
+	padding-left: 50px;
+}
+
+.menu_list li a{
+	color:rgba(255, 255, 255, .8);
+	text-decoration: none;
+}
+
+.menu_list li a:hover{
+	color:orange;
+}
